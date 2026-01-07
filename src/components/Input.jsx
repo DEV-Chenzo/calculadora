@@ -7,16 +7,17 @@ const Input = styled.input`
   color: var(--color-text);
   font-size: 2.2rem;
   border: none;
-  padding: 0.5rem;
+  padding: 1rem;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   border-radius: 1rem 1rem 0 0;
+  text-align: right;
 
   &&::placeholder {
     text-align: right;
     color: var(--color-tertiary);
-    padding-right: 0.5rem;
+ 
   }
 
   &&:focus {

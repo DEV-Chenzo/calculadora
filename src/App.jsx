@@ -8,27 +8,27 @@ function App() {
     <>
       <h1>Minha Calculadora</h1>
       <MainContainer>
-        <Input type="text" placeholder="0" />
+        <Input type="text" placeholder="0" disabled />
         <GridContainer>
-          <Button className="gray">C</Button>
-          <Button className="gray">±</Button>
-          <Button className="gray">%</Button>
-          <Button className="orange">÷</Button>
-          <Button>7</Button>
-          <Button>8</Button>
-          <Button>9</Button>
-          <Button className="orange">×</Button>
-          <Button>4</Button>
-          <Button>5</Button>
-          <Button>6</Button>
-          <Button className="orange">−</Button>
-          <Button>1</Button>
-          <Button>2</Button>
-          <Button>3</Button>
-          <Button className="orange">+</Button>
-          <Button className="spanTwo">0</Button>
-          <Button>,</Button>
-          <Button className="orange">=</Button>
+          <Button label='AC' variant="gray" />
+          <Button label='±' variant="gray" />
+          <Button label='%' variant="gray" />
+          <Button label='÷' variant="orange" />
+          <Button label='7' />
+          <Button label='8' />
+          <Button label='9' />
+          <Button label='x' variant="orange" />
+          <Button label='4' />
+          <Button label='5' />
+          <Button label='6'/>
+          <Button label='-' variant="orange" />
+          <Button label='1' />
+          <Button label='2' />
+          <Button label='3' />
+          <Button label='+' variant="orange" />
+          <Button label='0' double />
+          <Button label=',' />
+          <Button label='=' variant="orange" />
         </GridContainer>
       </MainContainer>
     </>
