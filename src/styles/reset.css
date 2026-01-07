@@ -1,9 +1,14 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 /* CSS reset para garantir consistência entre navegadores */
 :root {
-  --Roboto : 'Roboto', sans-serif;
+  --roboto: "Roboto", sans-serif;
+  --color-background: #2f2e2e;
+  --color-text: #e4e4f2;
+  --color-primary: #423d3d;
+  --color-secondary: #252622;
+  --color-orange: #d37903;
 }
 * {
   margin: 0;
@@ -11,14 +16,13 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
-  font-family: var(--Roboto); 
+  font-family: var(--roboto);
 }
 
 body {
-
   font-size: 16px;
-  background-color: #302d4a;
-  color: aliceblue;
+  background-color: rgb(127, 127, 127);
+  color: var(--color-text);
   display: flex;
   justify-content: center;
   align-items: center;
